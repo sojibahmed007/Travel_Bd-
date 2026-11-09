@@ -3,6 +3,7 @@
 **Target URL:** `https://studio.unfaa.com/auth/sign-in`  
 **Feature:** User Sign-in & Authentication Flow  
 **Audit Date:** 2026-11-09  
+**Excel Report:** [Travel_Bd_login.xlsx](./Travel_Bd_login.xlsx)
 
 ---
 
@@ -11,13 +12,6 @@
 | Total Tests | Passed | Failed | Pass Rate |
 | :---: | :---: | :---: | :---: |
 | **19** | **17** | **2** (TC-09, TC-11) | **89.5%** |
-
----
-
-## 📁 Repository Files
-
-* **[Travel_Bd_login.csv](./Travel_Bd_login.csv):** Raw CSV test matrix and defect log.
-* **[Travel_Bd_login.xlsx](./Travel_Bd_login.xlsx):** Fully styled and color-coded Excel spreadsheet with two sheets (*Test Cases Execution* & *Defects & Bug Report*).
 
 ---
 

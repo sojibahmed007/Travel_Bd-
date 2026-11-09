@@ -10,10 +10,23 @@
 
 * 📊 **[Travel_Bd_login.xlsx](./Travel_Bd_login.xlsx)** — Authentication & Sign-in feature test report
 * 📊 **[Travel_Bd_register.xlsx](./Travel_Bd_register.xlsx)** — Registration & Request access feature test report
+* 📊 **[Travel_Bd_forgot_password.xlsx](./Travel_Bd_forgot_password.xlsx)** — Password reset & OTP verification feature test report
 
 ---
 
-## 1. Registration Feature Summary (`Travel_Bd_register.xlsx`)
+## 1. Password Reset & OTP Verification (`Travel_Bd_forgot_password.xlsx`)
+
+### 📊 Summary KPIs
+| Total Tests | Passed | Failed | Pass Rate |
+| :---: | :---: | :---: | :---: |
+| **16** | **15** | **1** (TC-16) | **93.8%** |
+
+### 🐛 Identified Defects
+* **BUG-01 (TC-16):** Missing rate limiting and account lockout mechanism on password reset OTP verification (allows continuous OTP guessing attempts without any "Too Many Requests" lockout).
+
+---
+
+## 2. Registration Feature Summary (`Travel_Bd_register.xlsx`)
 
 ### 📊 Summary KPIs
 | Total Tests | Passed | Failed | Pass Rate |
@@ -28,7 +41,7 @@
 
 ---
 
-## 2. Login Feature Summary (`Travel_Bd_login.xlsx`)
+## 3. Login Feature Summary (`Travel_Bd_login.xlsx`)
 
 ### 📊 Summary KPIs
 | Total Tests | Passed | Failed | Pass Rate |

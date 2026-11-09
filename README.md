@@ -19,10 +19,11 @@
 ### 📊 Summary KPIs
 | Total Tests | Passed | Failed | Pass Rate |
 | :---: | :---: | :---: | :---: |
-| **16** | **15** | **1** (TC-16) | **93.8%** |
+| **17** | **15** | **2** (TC-16, TC-17) | **88.2%** |
 
 ### 🐛 Identified Defects
-* **BUG-01 (TC-16):** Missing rate limiting and account lockout mechanism on password reset OTP verification (allows continuous OTP guessing attempts without any "Too Many Requests" lockout).
+* **BUG-01 (TC-16 | High):** Missing rate limiting and account lockout mechanism on password reset OTP verification (allows continuous OTP guessing attempts without any "Too Many Requests" lockout).
+* **BUG-02 (TC-17 | Critical):** Password reset OTP verification email is never delivered to valid registered mailboxes (Broken DNS SPF record `v=spf1` / unconfigured backend SMTP transport on `tss.unfaa.com`).
 
 ---
 
